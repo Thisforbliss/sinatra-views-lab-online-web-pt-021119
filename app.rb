@@ -8,5 +8,8 @@ class App < Sinatra::Base
 		erb :hello
 	end
 
+  get '/goodbye' do 
+    erb :goodbye
+  end
 
 end
